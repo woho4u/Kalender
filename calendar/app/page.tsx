@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center p-8 pb-2 gap-8 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <p>Calendar</p>
+      <p className="text-3xl">Calendar</p>
       <div className="flex flex-col gap-2">
         <Label htmlFor="day">Day</Label>
         <Input
