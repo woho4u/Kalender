@@ -1,5 +1,5 @@
 export default class DateInput {
-    Day: number;
-	Month: number;
-	Year: number;
+	Day!: number;
+	Month!: number;
+	Year!: number;
 }
