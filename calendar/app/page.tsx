@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 
 export default function Home() {
-  const [day, setDay] = useState(4);
-  const [month, setMonth] = useState(4);
-  const [year, setYear] = useState(2025);
+  const [day, setDay] = useState(new Date().getDate());
+  const [month, setMonth] = useState(new Date().getMonth() + 1);
+  const [year, setYear] = useState(new Date().getFullYear());
 
   const isDayValid = day >= 1 && day <= 31;
   const isMonthValid = month >= 1 && month <= 12;
